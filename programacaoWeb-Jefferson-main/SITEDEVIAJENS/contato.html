@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="content">
+    <table>
+      <tr>
+        <td class="logo_area"><img src="imagens/logo.png" alt=""></td>
+        <td class="nav_area">
+          <a class="nav_links" href="index.html">Home</a>
+          <a class="nav_links" href="quem_somos.html">Quem somos</a>
+          <a class="nav_links" href="contato.html">Contatos</a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="principal_area">
+          <img class="image-contato" src="imagens/contato.png" alt="">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <section class="contato-content">
+            <form action="#" method="post">
+              <strong>Entre em Contato</strong>
+              <input class="input-contato" type="text" id="nome" name="nome" required placeholder="Nome">
+              <input class="input-contato" type="text" id="email" name="email" required placeholder="Email">
+              <textarea class="input-contato" id="assunto" name="assunto" rows="10" placeholder="Assunto"
+                required></textarea>
+              <button type="submit" onclick="alerta()">Enviar</button>
+            </form>
+          </section>
+        </td>
+      </tr>
+    </table>
+    <strong class="direitos">
+      &copy; Pablo Kayro - Todos os direiros resevados
+    </strong>
+</body>
+
+</html>

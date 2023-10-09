@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos do Accordion */
+.accordion {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.accordion-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.accordion-input {
+    display: none;
+}
+
+.accordion-header {
+    padding: 10px;
+    background-color: #0078d4;
+    color: #fff;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-input:checked ~ .accordion-content {
+    max-height: 1000px; /* Ajuste esse valor conforme necessário */
+}

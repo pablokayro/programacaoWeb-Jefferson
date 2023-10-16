@@ -1,0 +1,28 @@
+.noticia{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5DC;
+    border: 1px solid black;
+    color: #333;
+    font-size: 16px;
+    padding: 15px 10px 15px 10px;
+    text-align: justify;
+    width: 500px;
+    line-height: 24px;
+    margin: 20px;
+    float: left;
+}
+
+.noticia h1{
+    color: #c4170c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+.imagem{
+    float: right;
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+.noticia p{
+    clear: both;
+}

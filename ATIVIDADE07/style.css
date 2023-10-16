@@ -1,0 +1,18 @@
+.fontSerif{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+
+.fontSans-Serif{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 2.50em;
+}
+
+.fontMonospace{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+}
+
+.conteudo{
+    font-size: 30px;
+}
